@@ -568,37 +568,14 @@ Embedding YouTube videos in modals requires additional JavaScript not in Bootstr
 
 Modals have three optional sizes, available via modifier classes to be placed on a `.modal-dialog`. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports.
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Size</th>
-      <th>Class</th>
-      <th>Modal max-width</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Small</td>
-      <td><code>.modal-sm</code></td>
-      <td><code>300px</code></td>
-    </tr>
-    <tr>
-      <td>Default</td>
-      <td class="text-muted">None</td>
-      <td><code>500px</code></td>
-    </tr>
-    <tr>
-      <td>Large</td>
-      <td><code>.modal-lg</code></td>
-      <td><code>800px</code></td>
-    </tr>
-    <tr>
-      <td>Extra large</td>
-      <td><code>.modal-xl</code></td>
-      <td><code>1140px</code></td>
-    </tr>
-  </tbody>
-</table>
+{{< bs-table "table bs-js-table" >}}
+| Size | Class | Modal max-width
+| --- | --- | --- |
+| Small | `.modal-sm` | `300px` |
+| Default | <span class="text-muted">None</span> | `500px` |
+| Large | `.modal-lg` | `800px` |
+| Extra large | `.modal-xl` | `1140px` |
+{{< /bs-table >}}
 
 Our default modal without modifier class constitutes the "medium" size modal.
 
